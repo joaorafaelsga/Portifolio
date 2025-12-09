@@ -1,1 +1,17 @@
+body {
+     background-color: #8fd9fb;
+     color:black;
+     font-family: 'Times New Roman';
 
+}
+.galeria {
+  display: flex; /* Ativa o Flexbox */
+  align-items: center; /* Alinha verticalmente */
+  justify-content: center; /* Alinha horizontalmente */
+  gap: 20px; /* Espaçamento entre as imagens */
+}
+
+.galeria img {
+  width: 150px; /* Largura desejada */
+  height: auto; /* Mantém a proporção */
+}
